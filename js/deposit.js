@@ -1,4 +1,4 @@
-// step-1: add click handlar to the deposit button
+// step-1: add click handler to the deposit button
 document.getElementById('btn-deposit').addEventListener('click', function () {
     // step-2: get the deposit amount from the deposit input field
     // for input field use .value to the inside value the input field
@@ -26,8 +26,6 @@ document.getElementById('btn-deposit').addEventListener('click', function () {
     const currentBalanceTotal = previousBalanceTotal + newDepositAmount;
     // set the balance total
     balanceTotalElement.innerText = currentBalanceTotal;
-
-
 
     //step-7: clear the deposit field when the button clicked
     depositField.value = '';
